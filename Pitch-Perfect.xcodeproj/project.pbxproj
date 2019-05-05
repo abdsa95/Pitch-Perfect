@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		DC622540224AC14200819101 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC62253F224AC14200819101 /* AppDelegate.swift */; };
-		DC622542224AC14200819101 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC622541224AC14200819101 /* ViewController.swift */; };
 		DC622545224AC14200819101 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC622543224AC14200819101 /* Main.storyboard */; };
 		DC622547224AC14300819101 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC622546224AC14300819101 /* Assets.xcassets */; };
 		DC62254A224AC14300819101 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC622548224AC14300819101 /* LaunchScreen.storyboard */; };
+		DC622552224AC22000819101 /* RecordingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC622551224AC22000819101 /* RecordingVC.swift */; };
+		DC622556224AC33F00819101 /* PlayingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC622555224AC33F00819101 /* PlayingVC.swift */; };
+		DC622558224AEB6300819101 /* PlayingVC + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC622557224AEB6300819101 /* PlayingVC + Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DC62253C224AC14200819101 /* Pitch-Perfect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pitch-Perfect.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC62253F224AC14200819101 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DC622541224AC14200819101 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DC622544224AC14200819101 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DC622546224AC14300819101 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC622549224AC14300819101 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DC62254B224AC14300819101 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC622551224AC22000819101 /* RecordingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingVC.swift; sourceTree = "<group>"; };
+		DC622555224AC33F00819101 /* PlayingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingVC.swift; sourceTree = "<group>"; };
+		DC622557224AEB6300819101 /* PlayingVC + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PlayingVC + Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +58,10 @@
 		DC62253E224AC14200819101 /* Pitch-Perfect */ = {
 			isa = PBXGroup;
 			children = (
+				DC622555224AC33F00819101 /* PlayingVC.swift */,
+				DC622557224AEB6300819101 /* PlayingVC + Extension.swift */,
+				DC622551224AC22000819101 /* RecordingVC.swift */,
 				DC62253F224AC14200819101 /* AppDelegate.swift */,
-				DC622541224AC14200819101 /* ViewController.swift */,
 				DC622543224AC14200819101 /* Main.storyboard */,
 				DC622546224AC14300819101 /* Assets.xcassets */,
 				DC622548224AC14300819101 /* LaunchScreen.storyboard */,
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC622542224AC14200819101 /* ViewController.swift in Sources */,
+				DC622556224AC33F00819101 /* PlayingVC.swift in Sources */,
+				DC622552224AC22000819101 /* RecordingVC.swift in Sources */,
 				DC622540224AC14200819101 /* AppDelegate.swift in Sources */,
+				DC622558224AEB6300819101 /* PlayingVC + Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
